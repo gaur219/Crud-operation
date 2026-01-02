@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #242424;
+    padding: 5px 10px;
+    align-items: center;
+    color: azure;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-list a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-list a:hover{
+    color: #c9c7c7;
+}
